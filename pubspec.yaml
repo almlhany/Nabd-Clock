@@ -1,15 +1,23 @@
-name: nabd_clock
-description: A professional task manager built with Flutter.
-publish_to: 'none'
+name: alarm_clock_app
+description: "Professional Alarm Clock with Hijri and Custom Ringtones"
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.19.0
+  audioplayers: ^6.0.0
+  file_picker: ^8.0.0
   shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
